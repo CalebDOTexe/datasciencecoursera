@@ -1,9 +1,9 @@
 ## This file contains makeCacheMatrix and cacheSolve, meant to cache
-## the inverse of a matrix
+## the inverse of a matrix.
 
 
 ## makeCacheMatrix takes an argument x which is an inputted matrix and 
-## caches it through the get object. It then sets an inverse in 
+## retrieves it through the get object. It then sets an inverse in 
 ## setsolve and gets it in getsolve.
 
 makeCacheMatrix <- function(x = matrix()) {
